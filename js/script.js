@@ -6,7 +6,7 @@ const userAge = parseInt(prompt("quanti anni hai?"));
 console.log(kmNumber, userAge);
 //LOGICA
 // calcolare il prezzo del biglietto
-const ticketPrice = kmNumber * 0.21;
+const ticketPrice = (kmNumber * 0.21).toFixed(2);
 console.log(ticketPrice);
 //applicare uno sconto del 20% per minorenni e del 40% per gli over 65
 
